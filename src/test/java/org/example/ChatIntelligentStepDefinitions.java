@@ -39,7 +39,7 @@ public class ChatIntelligentStepDefinitions {
     }
 
     @When("{string} rejoint cette maison")
-    public void rejoindreMaison(String nom) {
+    public void rejoindMaison(String nom) {
         chat.rejoindreMaison(maison);
     }
 
