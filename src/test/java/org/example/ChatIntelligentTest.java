@@ -33,7 +33,7 @@ public class ChatIntelligentTest {
 
     @Test
     public void testGetAge() {
-        assertEquals(3, chat.getAge()); // 确保 Milo 的年龄是 3
+        assertEquals(3, chat.getAge()); 
     }
 
     @Test
